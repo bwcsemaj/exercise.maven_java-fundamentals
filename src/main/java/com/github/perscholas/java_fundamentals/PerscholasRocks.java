@@ -1,10 +1,18 @@
 package com.github.perscholas.java_fundamentals;
 
+import java.util.Scanner;
+
 /**
  * Created by leon Hunter on 2/5/18.
  */
 public class PerscholasRocks {
     public static void main(String[] args) {
-//         System.out.println("Perscholas Rocks!");
+        System.out.println("Perscholas Rocks!");
+        double value = 10.2;
+        
+        
+        
+        
+        Scanner scan = new Scanner(System.in);
     }
 }
