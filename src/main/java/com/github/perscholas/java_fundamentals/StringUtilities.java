@@ -93,8 +93,8 @@ public class StringUtilities {
         StringBuilder stringBuilder = new StringBuilder();
         char[] chars = stringToReverse.toCharArray();
         for (int index = chars.length - 1; index >= 0; index--) {
-            stringBuffer.append(chars[index]);
+            stringBuilder.append(chars[index]);
         }
-        return stringBuffer.toString();
+        return stringBuilder.toString();
     }
 }
