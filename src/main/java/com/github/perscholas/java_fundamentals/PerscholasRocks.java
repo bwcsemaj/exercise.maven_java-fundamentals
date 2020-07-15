@@ -8,11 +8,5 @@ import java.util.Scanner;
 public class PerscholasRocks {
     public static void main(String[] args) {
         System.out.println("Perscholas Rocks!");
-        double value = 10.2;
-        
-        
-        
-        
-        Scanner scan = new Scanner(System.in);
     }
 }

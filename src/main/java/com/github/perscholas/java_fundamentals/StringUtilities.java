@@ -90,7 +90,7 @@ public class StringUtilities {
      * @return an identical string with characters in reverse order.
      */
     public static String reverse(String stringToReverse) {
-        StringBuffer stringBuffer = new StringBuffer();
+        StringBuilder stringBuilder = new StringBuilder();
         char[] chars = stringToReverse.toCharArray();
         for (int index = chars.length - 1; index >= 0; index--) {
             stringBuffer.append(chars[index]);
